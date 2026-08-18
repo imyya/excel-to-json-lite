@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/imyya/excel-to-json-lite#readme",
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
   },
   "dependencies": {
     "xlsx": "^0.18.5"
