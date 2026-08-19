@@ -1,10 +1,12 @@
 {
-  "name": "excel-to-json-lite",
+  "name": "@imyya/excel-to-json-lite",
   "version": "1.0.0",
   "description": "Parse an Excel file into an array of JS objects",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,13 @@
   },
   "homepage": "https://github.com/imyya/excel-to-json-lite#readme",
   "devDependencies": {
+    "@types/node": "^26.2.0",
     "typescript": "^7.0.2",
-    "vite": "^8.2.1"
+    "vite": "^8.2.1",
+    "vitest": "^4.1.10"
   },
   "dependencies": {
     "xlsx": "^0.18.5"
-  }
+  },
+  "type": "module"
 }
