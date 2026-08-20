@@ -42,10 +42,3 @@ it('Parse un fichier excel valide', async()=>{
 })
 })
 
-// describe('Parse excel to json INVALID',()=>{
-//     it('Parse un fichier invalide', async()=>{
-//         const file = new File([new Uint16Array([1,2,3,4,5,6,7,8,9,10])], "file.txt")
-//        await expect(parseExcelToJson(file)).rejects.toThrow("No sheet in this file")
-//     })
-// })
-

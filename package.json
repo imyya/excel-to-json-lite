@@ -33,5 +33,6 @@
   "dependencies": {
     "xlsx": "^0.18.5"
   },
-  "type": "module"
+  "type": "module",
+  "files": ["dist"]
 }
